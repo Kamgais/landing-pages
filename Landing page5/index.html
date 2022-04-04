@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+
+    <section>
+
+        <div class="circle">
+
+        </div>
+
+
+    <header>
+
+       
+        <a href="#" ><img src="logo.png" alt=""  class="logo" ></a>
+
+        <nav>
+        <ul>
+            <li style="--i:1"><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's new </a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    </header>
+
+    <div class="content">
+        <div class="textBox">
+            <h2>It's not just Coffee <br>It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit tenetur voluptate atque, fugiat alias perspiciatis officia ea ipsam esse possimus autem inventore, facilis distinctio asperiores voluptates eligendi, consequuntur natus pariatur!</p>
+           
+
+            <a href="#">Learn More</a>
+       
+       
+       
+        </div>
+        <div class="imgBox">
+            <img src="image1.png" alt="" class="starbucks">
+        </div>
+    </div>
+
+    <ul class="thumb">
+        <li><img src="image1.png" alt="" onclick="imgSlider('image1.png');changeCircleColor('#025733') "></li>
+        <li><img src="image2.png" alt="" onclick="imgSlider('image2.png') ;changeCircleColor('#eb7495')" ></li>
+        <li><img src="image3.png" alt="" onclick="imgSlider('image3.png'); changeCircleColor('#d752b1')"></li>
+    </ul>
+
+    <ul class="sci">
+        <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+    </ul>
+
+
+</section>
+
+
+
+<script>
+    function imgSlider(anything){
+
+        document.querySelector('.starbucks').src = anything;
+
+    }
+
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background = color;
+
+    }
+</script>
+
+
+    
+</body>
+</html>

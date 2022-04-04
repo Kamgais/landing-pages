@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+ 
+    display: flex;
+    margin-right: 150px;
+    overflow: hidden;
+    
+    
+}
+
+
+.logo-social{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo-social::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgb(214, 211, 211);
+    left: 80px;
+}
+
+
+
+
+
+.logo-social .logo span{
+    font-size: 17px;
+    color: rgb(160, 0, 0);
+}
+
+.logo-social .social{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+.logo-social .social a{
+   
+    margin-bottom: 10px;
+    color: rgb(126, 122, 122);
+
+}
+
+
+.header{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+  
+  
+    
+   
+}
+
+.header .navbar{
+    margin-top: 30px;
+}
+
+.header .navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+    
+    
+
+}
+
+.header .navbar ul li{
+    margin-right: 40px;
+  
+}
+
+.header .navbar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    position: relative;
+}
+
+.header .navbar ul li a::after{
+
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: rgb(10, 10, 10);
+    left: -1px;
+    top: 25px;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+
+
+.header .navbar ul li a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
+.header .call-logo{
+    
+    flex: 1;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+   
+    margin-top: 30px;
+    color: rgb(143, 3, 80);
+
+    margin-right: 50px;
+}
+
+.header .call-logo i{
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .call-logo p{
+    font-weight: 500;
+}
+
+.content{
+    display: flex;
+   flex-direction: column;
+   flex: 1;
+  
+   width: 95vw;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+.left-section{
+ margin:  300px  150px ;
+}
+
+.left-section-text p{
+    font-weight: 600;
+}
+
+.left-section-text  h1{
+    font-size: 105px;
+}
+
+
+.left-section-text  h1 span{
+    color: rgb(153, 3, 3);
+}
+
+
+.left-section-text .germain{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.left-section-text .frangin{
+    font-weight: 600;
+}
+
+
+.left-section-button{
+    margin-top: 40px;
+   
+
+
+}
+
+
+.left-section-button button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(153, 3, 3);
+    font-weight: 500;
+}
+
+.left-section-adresse{
+    display: flex;
+   margin-top: 150px;
+  
+    
+}
+
+.left-section-adresse-card{
+    margin-right: 100px;
+    position: relative;
+}
+
+.naura::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgb(214, 211, 211);
+    left: 210px;
+    top: -8px;
+
+}
+
+.right-section img{
+    
+    margin-right: 900px;
+
+}
+
+
+.section{
+    display: flex;
+}
+
+.right-section{
+    margin-right: 700px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

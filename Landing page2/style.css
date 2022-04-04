@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-style : italic;
+
+}
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    background: #f7f7f7;
+}
+
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 3rem;
+
+}
+
+
+header .logo {
+  font-size: 60px;
+ 
+
+}
+
+header .logo a{
+    text-decoration: none;
+}
+
+
+header nav ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+header nav ul li{
+    margin: 0 3rem;
+}
+
+header nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top,white,rgb(62, 155, 241)) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container .image{
+    margin-top: -5rem;
+
+}
+
+
+.container .image img{
+    width: 40vw;
+    transition: 0.3s;
+}
+
+.container .image img:hover{
+    width: 50vw;
+}
+
+
+.container .content{
+    margin-top: 13rem;
+    width: 40vw;
+}
+
+
+.container .content h1{
+    font-size: 5rem;
+    color: black;
+
+}
+
+.container .content h3{
+    font-size: 2.3rem;
+    color: rgb(40, 147, 247);
+    margin: 1rem 0;
+}
+
+
+p{
+    font-size: 1.3rem;
+    color: black;
+
+}
+
+.container .content .buttons button{
+
+    height: 4rem;
+    width: 14rem;
+    background: rgb(0, 140, 255);
+    color: black;
+    border-radius: 5rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem ;
+    margin: 2rem 0;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.container .content .buttons button:hover{
+    background: black;
+    color: rgb(0, 140, 255) ;
+}
+
+ .content .buttons a:nth-child(2) button{
+    margin-left: 2rem ;
+}
+
+
+.container .content .icons{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .content .icons a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 2.7rem;
+    transition: 0.2s;
+}
+
+
+
+.container .content .icons a:hover{
+    color: rgb(0, 153, 255);
+}
+

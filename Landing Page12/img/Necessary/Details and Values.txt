@@ -1,0 +1,20 @@
+logo
+Menu item:
+--------------------
+Mouses
+Games
+Accessories
+More Features
+Entertainment
+--------------------------
+Best Gaming Mouses.
+Lorem
+Buy Now | Watch Now
+--------------------------
+Color Code = 
+3e3e3e
+d7005d
+3ba0fe
+747474
+000000
+ffffff

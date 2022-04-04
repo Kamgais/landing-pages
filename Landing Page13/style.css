@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    margin: 20px 40px;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.849), white)
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h3{
+    color:rgba(255, 255, 255, 0.863) ;
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header ul li a{
+
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.863);
+
+}
+
+
+header .signin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 60px;
+}
+
+
+header .signin i{
+    margin-right: 15px;
+    display: block;
+    border: 1px solid transparent;
+    background-color: black ;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    padding:  5px 5px;
+}
+
+
+header .signin button{
+    margin-left: 30px;
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 85px;
+    color: #fff;
+    background: black;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+section .left-section{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px ;
+    margin-left: 200px;
+}
+
+section .left-section .left-section-text{
+    margin: 20px 20px;
+
+}
+
+section .left-section .left-section-text h1{
+    font-size: 45px;
+}
+
+section .left-section .left-section-text p{
+    font-size: 45px;
+}
+
+section .left-section  .left-section-input{
+    margin: 20px 10px;
+    position: relative;
+    
+}
+
+section .left-section  .left-section-input input{
+    width: 70% ;
+    height: 50px;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 40px;
+}
+
+
+section .left-section  .left-section-input button{
+    position: absolute;
+    padding: 9px 9px;
+    border: none;
+    border-radius: 40px;
+    width: 90px;
+    height: 43px;
+    left: 250px;
+    top: 4px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+
+section .left-section  .left-section-input i{
+    position: absolute;
+    color: #fff;
+    left:  220px;
+    top: 16px ;
+}
+
+
+section .left-section  .left-section-button{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+section .left-section  .left-section-button p{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 11px;
+}
+
+
+section .left-section  .left-section-button button{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 11px;
+}
+
+
+section .left-section  .left-section-customer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+section .left-section  .left-section-customer .left-section-customer-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+section .left-section  .left-section-customer .left-section-customer-img img{
+    width: 70px ;
+    margin-right: 10px;
+    display: block;
+    border-radius: 50%;
+    height: 70px;
+
+    border: 5px solid black;
+
+}
+
+
+section .left-section  .left-section-customer .left-section-customer-text{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: 100px;
+   background: rgba(255, 255, 255, 0.295);
+   border: none;
+   border-radius: 15px;
+   position: absolute;
+   z-index: -1;
+   top: 50px;
+   color: #fff;
+
+   
+    text-align: center;
+}
+
+
+.left-section-customer-text p span{
+    font-size: 11px;
+}
+
+
+.left-section-customer-text p  i{
+    color: yellow;
+}
+
+
+.left-section-cards{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-section-cards .left-section-card{
+    margin-right: 30px;
+    text-align: center;
+    width: 100px;
+    height: 180px;
+    background: #fff;
+    padding: 10px ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.left-section-cards .left-section-card img{
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 10px;
+}
+
+.left-section-cards .left-section-card p{
+    font-size: 12px;
+    font-weight: 500;
+    
+
+}
+
+
+.left-section-cards .left-section-card button{
+    font-size: 8px;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background: black;
+    color: #fff;
+    border-radius: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-section-customer img{
+    width: 100px;
+}
+
+
+.left-section-card img{
+    width: 100px;
+}
+
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    margin-top: -10px;
+
+
+}
+
+
+
+.right-section img{
+
+    width: 1000px;
+
+    height: 100%;
+    
+
+    
+}
+
+

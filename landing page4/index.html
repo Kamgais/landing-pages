@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Travel Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <div class="logo">
+              <a href="#">fas</a>  
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Designers</a></li>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Intimates</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </div>
+
+            <div class="wishlist">
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+        </header>
+
+
+        <div class="content">
+           <div class="products">
+             <div class="product-img active" id="blazzer">
+                 <div class="overlay"></div>
+                 <img src="blazzer1.jpg" alt="">
+             </div>  
+             <div class="product-img" id="jacket">
+                <div class="overlay"></div>
+                <img src="jacket1.jpg" alt="">
+            </div>  
+            <div class="product-img" id="jeans">
+                <div class="overlay"></div>
+                <img src="jeans1.jpg" alt="">
+            </div>  
+            <div class="product-img" id="suits">
+                <div class="overlay"></div>
+                <img src="suits1.jpg" alt="">
+            </div>  
+            <div class="product-img" id="short">
+                <div class="overlay"></div>
+                <img src="short1.jpg" alt="">
+            </div>  
+             
+           </div> 
+
+           <div class="category">
+              <ul>
+                  <li><a href="#blazzer" >Blazzers</a></li>
+                  <li><a href="#jacket">Jackets</a></li>
+                  <li><a href="#jeans">Jeans</a></li>
+                  <li><a href="#suits">Suits</a></li>
+                  <li><a href="#short">Shorts</a></li>
+              </ul> 
+           </div>
+
+           <div class="products">
+
+            <div class="product-img active" id="blazzer">
+                <div class="overlay"></div>
+                <img src="blazzer2.jpg" alt="">
+            </div>  
+            <div class="product-img" id="jacket">
+               <div class="overlay"></div>
+               <img src="jacket2.jpg" alt="">
+           </div>  
+           <div class="product-img" id="jeans">
+               <div class="overlay"></div>
+               <img src="jeans2.jpg" alt="">
+           </div>  
+           <div class="product-img" id="suits">
+               <div class="overlay"></div>
+               <img src="suits2.jpg" alt="">
+           </div>  
+           <div class="product-img" id="short">
+               <div class="overlay"></div>
+               <img src="short2.jpg" alt="">
+           </div>  
+
+           </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script>
+       $(function(){
+           $(".category li a").mouseover(function(){
+               $(this).addClass("active");
+               $(".category li a").not(this).removeClass("active");
+
+               var catname= $(this).attr("href");
+              
+
+               $(".products .product-img").removeClass("active");
+               $(".products .product-img"+catname).addClass("active");
+           })
+       }) 
+    </script>
+
+
+</body>
+</html>

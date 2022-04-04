@@ -1,0 +1,317 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.navbar .logo{
+    margin: 0 2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar .logo .point{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+   
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navbar ul li{
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+
+.navbar ul li a::before{
+    content: '';
+    
+    height: 3px;
+    width: 0%;
+    
+    background: rgb(2, 89, 170);
+    
+    position: absolute;
+
+    top: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover:before{
+    width: 100%;
+}
+
+
+.navbar .icons{
+    margin: 0 2rem;
+
+}
+
+.navbar .icons a{
+    margin: 0 20px;
+    color: rgb(2, 89, 170);
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.content .left-side{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+   
+   background: rgba(13, 82, 230, 0.103);
+   border-radius: 5px;
+   position: relative;
+   height: 850px;
+  
+
+}
+
+
+.content .left-side .text-part .erste{
+    font-size: 12px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 0, 0.384);
+    text-align: center;
+    width: 30%;
+    padding: 2px 10px;
+
+}
+
+.content .left-side .text-part{
+    padding-left : 70px;
+}
+
+.content .left-side .text-part .save{
+    padding-left: 0px;
+}
+
+.content .left-side .text-part h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+  
+}
+
+.content .left-side .text-part span{
+    color: rgb(2, 89, 170) ;
+}
+
+
+.content .left-side .text-part .explains{
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.content .left-side .text-part a{
+    font-size: 13px;
+    color: rgb(2, 89, 170);
+    
+}
+
+
+.content .left-side .text-part h3{
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+
+.content .left-side .text-part button{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgb(2, 89, 170) ;
+    background: transparent;
+    color: rgb(2, 89, 170);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.content .left-side .text-part .tera{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.content .left-side .icons-part{
+    display: flex;
+    flex-direction: column;
+    
+  padding-left: 52px;
+  justify-content: flex-end;
+  
+}
+
+
+.content .left-side .icons-part a{
+    margin-bottom: 30px;
+    color: black;
+    
+}
+
+
+.content .right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content .right-side .images{
+      margin-top: 180px  ;
+      margin-bottom: 90px;
+      
+      position: relative;
+
+
+     
+
+      border-radius: 50%;
+
+}
+
+
+.content .right-side .images .img1{
+    width: 400px;
+    position: relative;
+   left: 25%;
+   bottom: 15%;
+}
+
+
+.content .right-side .images .img2{
+    position: absolute;
+    top: -65%;
+    left: 36%;
+    width: 700px;
+
+}
+
+
+.content .right-side .informations{
+    border: 1px solid rgb(241, 239, 239);
+    margin: 0 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.content .right-side .informations .text-information p{
+
+    font-size: 13px;
+
+}
+
+.content .right-side .informations .unten-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content .right-side .informations .unten-information .images-information{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content .right-side .informations .unten-information .images-information img{
+    width: 90px;
+}
+
+.content .right-side .informations .unten-information .button-information{
+    flex: 1;
+   text-align: right;
+   margin-right: 200px;
+}
+
+
+.content .right-side .informations .unten-information .button-information button{
+
+    width: 150px;
+    height: 30px;
+    background: rgba(3, 25, 126, 0.925);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
